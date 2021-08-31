@@ -1,0 +1,77 @@
+.bodyPpe{
+	background: black url("../images/City.jpg") no-repeat ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;
+    
+	
+}
+
+
+.div
+{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.presentation
+{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.60);
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: medium;
+}
+
+.txtPresentation
+{
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+#cont2
+{
+    display: flex;
+    
+}
+
+#cont3
+{
+    display: flex;
+}
+
+.text_sio
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+    border: 1px solid #ffcc33;
+}
+
+.titre
+{
+    margin-left: 5%;
+}
+
+p
+{
+    color: antiquewhite;
+}
+h1
+{
+    color: antiquewhite;
+}
+h3
+{
+    color: antiquewhite;
+}

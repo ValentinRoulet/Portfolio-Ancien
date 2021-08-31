@@ -1,0 +1,373 @@
+.oui
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.fdp
+{
+    margin-left: 30vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+    border: 1px solid red;
+}
+
+/* --------------------- IMAGES ------------------------------------------------ */
+
+.bodyMenu{
+	background: black url("../../images/City.jpg") no-repeat ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    
+	
+}
+
+/* ---------------------------- FIN IMAGES ------------------------------------------------------------*/
+
+
+/* ---------------------------ANIMATIONS ------------------------------------------------------------- */
+
+.fadeout {
+    
+    opacity: 1;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadeout {
+    from {
+        display: none;
+        opacity:1;
+    }
+    to {
+        display: none;
+        opacity:0;
+    }
+}
+@-moz-keyframes fadeout { /* Firefox */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-o-keyframes fadeout { /* Opera */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.Presentation0
+{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+    border: 1px solid red;
+    
+}
+
+.text_presentation
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bouton
+{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 6em;
+
+}
+
+.bouton:hover
+{
+    background-color: red;
+    color: black;
+}
+
+.A
+{
+    color: antiquewhite;
+}
+
+.contact:hover
+{
+    color: red;
+}
+.contact
+{
+    color: red;
+}
+
+
+.image_presenation
+{
+    border: 2px solid red;
+}
+
+.ensemble
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE VOTE */
+
+
+*{box-sizing:border-box}
+
+img{
+
+max-width: 100%;
+
+}
+
+/*pour le saut de page, on cree une class que l'on met en display:none*/
+.target{
+
+display: none
+
+}
+
+.target2{
+
+    display: none
+    
+    }
+
+
+
+/* englobe le slider */
+
+.cadre_diapo{
+
+max-width: 20vw;
+margin: 2rem auto;
+overflow: hidden;
+	
+	}
+
+    .cadre_diapo2{
+
+        max-width: 20vw;
+        margin: 2rem auto;
+        overflow: hidden;
+            
+            }
+
+.interieur_diapo{
+	
+display: flex;
+width: 400%;
+transition: transform .6s ease-in-out
+	
+	}
+
+    .interieur_diapo2{
+	
+        display: flex;
+        width: 200%;
+        transition: transform .6s ease-in-out
+            
+            }
+
+.description{
+
+position: relative;
+
+}
+
+.description2{
+
+    position: relative;
+    
+    }
+
+.description span{
+
+position: absolute;
+left: 0;
+top: 2%;
+font-size: 75%;
+display: flex;
+padding: .5rem;
+justify-content: center;
+color: white;
+background: hsla(0,0%,0%,.35)
+	
+	}
+
+    .description2 span{
+
+        position: absolute;
+        left: 0;
+        top: 2%;
+        font-size: 75%;
+        display: flex;
+        padding: .5rem;
+        justify-content: center;
+        color: white;
+        background: hsla(0,0%,0%,.35)
+            
+            }
+	
+	
+#votre_id1:target ~ .cadre_diapo .interieur_diapo{
+
+transform:translatex(0)
+
+}/*image 1*/
+
+#votre_id2:target ~ .cadre_diapo .interieur_diapo{
+
+transform:translatex(-25%)
+
+}/*image 2*/
+
+#votre_id3:target ~ .cadre_diapo .interieur_diapo{
+
+transform:translatex(-50%)
+
+}/*image 3*/
+
+#votre_id4:target ~ .cadre_diapo .interieur_diapo{
+
+transform:translatex(-75%)
+
+}/*image 4*/
+
+#votre_id5:target ~ .cadre_diapo2 .interieur_diapo2{
+
+    transform:translatex(0%)
+    
+    }/*image 5*/
+
+    #votre_id6:target ~ .cadre_diapo2 .interieur_diapo2{
+
+        transform:translatex(-50%)
+        
+        }/*image 6*/
+
+
+
+
+
+/*navigation avec images miniatures*/
+.navigation_diapo{
+	
+display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
+list-style-type: none;
+margin: 0;
+padding: 0
+	
+	}
+
+.navigation_diapo2{
+	
+    display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+            
+}
+
+.navigation_diapo li {
+	
+	padding: .25rem;
+	
+	}
+
+.navigation_diapo2 li {
+	
+    padding: .25rem;
+        
+        }
+
+.navigation_diapo img{
+
+border: 3px solid rgba(236, 196, 16, 0.4);
+box-shadow:0 0 5px rgba(236, 196, 16, 0.4);
+
+	
+	}
+
+    .navigation_diapo2 img{
+
+        border: 3px solid rgb(0, 0, 0);
+        box-shadow:0 0 5px rgba(236, 196, 16, 0.75);
+        
+            
+            }
+	
+	
+	@media (min-width:31.25rem){
+		
+		.description span{
+			
+			font-size: initial
+		
+		}
+	
+	}
+
+
+.groupementImages
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.noire
+{
+    color: black;
+    text-decoration-color: black;
+    
+}

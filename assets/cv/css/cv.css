@@ -1,0 +1,45 @@
+.bodyCV{
+	background: black url("../image/fond.jpg") no-repeat ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:100%;
+	
+}
+
+.center
+{
+	/*text-align: center;*/
+	position: absolute;
+	height: 120%;
+	width: 70%;
+	margin-left: 17%;
+	margin-top: 2%;
+	
+}
+.flex
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.btn
+{
+	margin-top: 75%;
+	margin-left: 45%;
+}
+
+.oui
+{
+	background: black url("../cv.jpg") no-repeat ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:100%;
+}
+
+.spacer .s10 
+{
+	min-height: 1000px;
+}
